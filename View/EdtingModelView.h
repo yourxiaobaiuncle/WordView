@@ -10,7 +10,7 @@
 @protocol EdtingModelViewDelegete<NSObject>
 -(void)tapGesClickDelegete:(UITapGestureRecognizer*)sender andTextViewString:(NSString*)textViewString andWordNum:(NSInteger)wordNum andFontFimaly:(NSString*)fontFimaly;
 @end
-typedef NS_ENUM(NSUInteger, WordViewModelType) {//手势控制哪种转场
+typedef NS_ENUM(NSUInteger, WordViewModelType) {//手势控制哪种转场....
     model11=0,
     model22,
     model33,
